@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+echo "🚀 [Gatekeeper] Starting pre-commit quality checks..."
+
+# 1. Privacy Check (Trufflehog)
+if command -v trufflehog &> /dev/null; then
+  echo "🔒 Scanning workspace for exposed keys/tokens..."
+  trufflehog filesystem --directory=. --only-verified || exit 1
+else
+  echo "⚠️ Trufflehog not installed locally. Skipping secret sweep."
+fi
+
+# 2. Dependency Management Hook
+echo "📦 Pinning workspace runtime dependencies..."
+pip freeze > requirements.txt
+git add requirements.txt
+
+# 3. Code Formatting & Linting Sequence
+echo "🎨 Formatting code with Black..."
+black main.py
+
+echo "🧹 Checking code layout with Flake8..."
+if command -v flake8 &> /dev/null; then
+  flake8 main.py --max-line-length=120 || exit 1
+fi
+
+echo "✅ All pre-commit checks passed successfully!"

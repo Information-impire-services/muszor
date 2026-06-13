@@ -1,0 +1,34 @@
+# ==========================================
+# 1. API Data Buffers & Demixing Artifacts
+# ==========================================
+downloads/
+output/
+stems/
+
+# Absolute file type catch-alls for processed tracks
+*.mp3
+*.wav
+*.mid
+*.midi
+
+# ==========================================
+# 2. Python Environment and Execution Caches
+# ==========================================
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+
+# IDE configurations
+.vscode/
+
+
+# Local Workspace Logs & Diagnostic Interceptors
+.workspace_diagnostics.log
+*.log
+
+
+# .env (Stays completely local to your workspace container)
+EXTRACTION_GATEWAY_URL=https://api.savetube.me/info/
+PYTHONWARNINGS=ignore::UserWarning:resampy
