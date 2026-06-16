@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/workspaces/muszor/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+EventBus	telemetry/bus.py	/^class EventBus:$/;"	c
+ExecutionContext	telemetry/context.py	/^class ExecutionContext:$/;"	c
+ExecutionGraphBuilder	telemetry/graph.py	/^class ExecutionGraphBuilder:$/;"	c
+Strict Formatting Rule	.github/prompts/diagnose.prompt.md	/^### Strict Formatting Rule$/;"	S
+TelemetryConfig	.dev/env.py	/^class TelemetryConfig:$/;"	c
+__enter__	telemetry/context.py	/^    def __enter__(self):$/;"	m	class:lifecycle
+__exit__	telemetry/context.py	/^    def __exit__(self, exc_type, exc, tb):$/;"	m	class:lifecycle
+__init__	.dev/env.py	/^    def __init__(self):$/;"	m	class:TelemetryConfig
+__init__	telemetry/context.py	/^    def __init__(self, origin="http", trace_id=None, parent_span_id=None):$/;"	m	class:ExecutionContext
+__init__	telemetry/graph.py	/^    def __init__(self):$/;"	m	class:ExecutionGraphBuilder
+_original_create_task	telemetry/hooks.py	/^_original_create_task = asyncio.create_task$/;"	v
+app	main.py	/^app = FastAPI(title="Production-Grade Audio to MIDI Converter")$/;"	v
+auto_instrument	telemetry/auto.py	/^def auto_instrument(*modules):$/;"	f
+build_dag	telemetry/graph.py	/^    def build_dag(self, trace_id):$/;"	m	class:ExecutionGraphBuilder
+config	.dev/env.py	/^config = TelemetryConfig()/;"	v
+console_sink	.dev/boot.py	/^def console_sink(event):$/;"	f
+console_sink	telemetry/sink.py	/^def console_sink(event):$/;"	f
+current_context	telemetry/context.py	/^current_context = ContextVar("current_context", default=None)$/;"	v
+emit	telemetry/context.py	/^    def emit(self, event, **data):$/;"	m	class:ExecutionContext
+get_current_context	telemetry/context.py	/^def get_current_context():$/;"	f
+ingest	telemetry/graph.py	/^    def ingest(self, event):$/;"	m	class:ExecutionGraphBuilder
+init	telemetry/bus.py	/^    def init(cls):$/;"	m	class:EventBus
+inner	telemetry/auto.py	/^        def inner(*args, **kwargs):$/;"	f	function:trace.wrapper	file:
+install_async_hooks	telemetry/hooks.py	/^def install_async_hooks():$/;"	f
+instrument_module	telemetry/auto.py	/^def instrument_module(module_name):$/;"	f
+lifecycle	telemetry/context.py	/^class lifecycle:$/;"	c
+muszor	README.md	/^# muszor$/;"	c
+publish	telemetry/bus.py	/^    def publish(cls, event):$/;"	m	class:EventBus
+rip_to_midi_stems	main.py	/^async def rip_to_midi_stems(url: str = Query(...)):$/;"	f
+root	main.py	/^def root():$/;"	f
+scan_module	telemetry/scanner.py	/^def scan_module(module_name):$/;"	f
+subscribe	telemetry/bus.py	/^    def subscribe(cls, fn):$/;"	m	class:EventBus
+subscribers	telemetry/bus.py	/^    subscribers = []$/;"	v	class:EventBus
+telemetry_middleware	telemetry/middleware.py	/^async def telemetry_middleware(request, call_next):$/;"	f
+trace	telemetry/auto.py	/^def trace(name):$/;"	f
+wrapped	telemetry/hooks.py	/^    def wrapped(coro):$/;"	f	function:install_async_hooks	file:
+wrapper	telemetry/auto.py	/^    def wrapper(fn):$/;"	f	function:trace	file:

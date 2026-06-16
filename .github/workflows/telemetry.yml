@@ -1,0 +1,11 @@
+name: telemetry-check
+
+on: [push]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate telemetry imports
+        run: python -c "from telemetry.context import lifecycle"
