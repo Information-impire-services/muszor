@@ -1,0 +1,332 @@
+/workspaces/muszor/debug_inference.py
+  /workspaces/muszor/debug_inference.py:5:12 - warning: Import "yt_dlp" is not accessed (reportUnusedImport)
+  /workspaces/muszor/debug_inference.py:6:24 - warning: Import "separate" is not accessed (reportUnusedImport)
+  /workspaces/muszor/debug_inference.py:7:10 - warning: Stub file not found for "basic_pitch.inference" (reportMissingTypeStubs)
+  /workspaces/muszor/debug_inference.py:17:5 - error: Arguments missing for parameters "save_model_outputs", "model_or_model_path" (reportCallIssue)
+  /workspaces/muszor/debug_inference.py:22:9 - error: No parameter named "save_model_output" (reportCallIssue)
+/workspaces/muszor/main.py
+  /workspaces/muszor/main.py:2:28 - warning: Type of "auto_instrument" is partially unknown
+    Type of "auto_instrument" is "(*modules: Unknown) -> None" (reportUnknownVariableType)
+  /workspaces/muszor/main.py:7:30 - warning: Import "HTTPException" is not accessed (reportUnusedImport)
+  /workspaces/muszor/main.py:9:1 - warning: "os" is imported more than once (reportDuplicateImport)
+  /workspaces/muszor/main.py:9:12 - warning: Import "glob" is not accessed (reportUnusedImport)
+  /workspaces/muszor/main.py:9:18 - warning: Import "traceback" is not accessed (reportUnusedImport)
+  /workspaces/muszor/main.py:9:29 - warning: Import "yt_dlp" is not accessed (reportUnusedImport)
+  /workspaces/muszor/main.py:12:6 - warning: Stub file not found for "basic_pitch.inference" (reportMissingTypeStubs)
+  /workspaces/muszor/main.py:18:34 - warning: Type of "telemetry_middleware" is partially unknown
+    Type of "telemetry_middleware" is "(request: Unknown, call_next: Unknown) -> CoroutineType[Any, Any, Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/main.py:20:1 - warning: Result of call expression is of type "(request: Unknown, call_next: Unknown) -> CoroutineType[Any, Any, Unknown]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/main.py:20:24 - warning: Argument type is partially unknown
+    Argument corresponds to parameter "__p0"
+    Argument type is "(request: Unknown, call_next: Unknown) -> CoroutineType[Any, Any, Unknown]" (reportUnknownArgumentType)
+  /workspaces/muszor/main.py:28:40 - warning: Function calls and mutable objects not allowed within parameter default value expression (reportCallInDefaultInitializer)
+  /workspaces/muszor/main.py:31:5 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:31:9 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:34:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:34:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:37:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:37:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:40:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:40:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:42:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:42:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:43:9 - warning: Type of "main" is partially unknown
+    Type of "main" is "(opts: Unknown | None = None) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/main.py:44:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:44:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:46:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:46:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:47:9 - error: Arguments missing for parameters "output_directory", "save_midi", "sonify_midi", "save_model_outputs", "save_notes", "model_or_model_path" (reportCallIssue)
+  /workspaces/muszor/main.py:48:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:48:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:50:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:50:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:55:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:55:13 - error: Cannot access attribute "emit" for class "None"
+    Attribute "emit" is unknown (reportAttributeAccessIssue)
+  /workspaces/muszor/main.py:58:11 - warning: Return type is unknown (reportUnknownParameterType)
+  /workspaces/muszor/main.py:58:32 - warning: Type of parameter "request" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/main.py:58:32 - warning: Type annotation is missing for parameter "request" (reportMissingParameterType)
+  /workspaces/muszor/main.py:58:41 - warning: Type of parameter "call_next" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/main.py:58:41 - warning: Type annotation is missing for parameter "call_next" (reportMissingParameterType)
+  /workspaces/muszor/main.py:60:5 - warning: Type of "ctx" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/main.py:60:11 - error: "ExecutionContext" is not defined (reportUndefinedVariable)
+  /workspaces/muszor/main.py:61:5 - error: "current_context" is not defined (reportUndefinedVariable)
+  /workspaces/muszor/main.py:61:5 - warning: Type of "set" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:63:5 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:64:5 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:64:39 - warning: Type of "url" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:64:39 - warning: Argument type is unknown
+    Argument corresponds to parameter "object" in function "__new__" (reportUnknownArgumentType)
+  /workspaces/muszor/main.py:67:9 - warning: Type of "response" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/main.py:69:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:71:20 - warning: Type of "status_code" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:74:16 - warning: Return type is unknown (reportUnknownVariableType)
+  /workspaces/muszor/main.py:78:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/main.py:83:9 - warning: Type of "emit" is unknown (reportUnknownMemberType)
+/workspaces/muszor/telemetry/auto.py
+  /workspaces/muszor/telemetry/auto.py:2:31 - warning: Type of "scan_module" is partially unknown
+    Type of "scan_module" is "(module_name: Unknown) -> list[Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:6:5 - warning: Return type, "(fn: Unknown) -> ((...) -> Unknown)", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:6:11 - warning: Type of parameter "name" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:6:11 - warning: Type annotation is missing for parameter "name" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:7:9 - warning: Return type, "(...) -> Unknown", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:7:17 - warning: Type of parameter "fn" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:7:17 - warning: Type annotation is missing for parameter "fn" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:8:13 - warning: Return type is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:8:20 - warning: Type of parameter "args" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:8:20 - warning: Type annotation is missing for parameter "args" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:8:28 - warning: Type of parameter "kwargs" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:8:28 - warning: Type annotation is missing for parameter "kwargs" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:14:17 - warning: Type of "result" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:19:24 - warning: Return type is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:26:16 - warning: Return type, "(...) -> Unknown", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:27:12 - warning: Return type, "(fn: Unknown) -> ((...) -> Unknown)", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:30:23 - warning: Type of parameter "module_name" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:30:23 - warning: Type annotation is missing for parameter "module_name" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:31:5 - warning: Type of "discovered" is partially unknown
+    Type of "discovered" is "list[Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:31:30 - warning: Argument type is unknown
+    Argument corresponds to parameter "module_name" in function "scan_module" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/auto.py:35:9 - warning: Type of "mod" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:35:14 - warning: Type of "name" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:35:20 - warning: Type of "fn" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:36:9 - warning: Type of "wrapped" is partially unknown
+    Type of "wrapped" is "(...) -> Unknown" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:36:42 - warning: Argument type is unknown
+    Argument corresponds to parameter "fn" in function "wrapper" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/auto.py:37:25 - warning: Argument type is unknown
+    Argument corresponds to parameter "name" in function "setattr" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/auto.py:40:22 - warning: Type of parameter "modules" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/auto.py:40:22 - warning: Type annotation is missing for parameter "modules" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/auto.py:41:9 - warning: Type of "m" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/auto.py:42:27 - warning: Argument type is unknown
+    Argument corresponds to parameter "module_name" in function "instrument_module" (reportUnknownArgumentType)
+/workspaces/muszor/telemetry/bus.py
+  /workspaces/muszor/telemetry/bus.py:1:28 - warning: Type of "console_sink" is partially unknown
+    Type of "console_sink" is "(event: Unknown) -> None" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/bus.py:5:5 - warning: Type annotation for attribute `subscribers` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/bus.py:10:32 - warning: Type of "subscribers" is partially unknown
+    Type of "subscribers" is "list[Unknown]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:11:13 - warning: Type of "subscribers" is partially unknown
+    Type of "subscribers" is "list[Unknown]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:11:13 - warning: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:14:22 - warning: Type of parameter "event" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/bus.py:14:22 - warning: Type annotation is missing for parameter "event" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/bus.py:15:13 - warning: Type of "sub" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/bus.py:15:25 - warning: Type of "subscribers" is partially unknown
+    Type of "subscribers" is "list[Unknown]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:15:25 - warning: Argument type is partially unknown
+    Argument corresponds to parameter "iterable" in function "__init__"
+    Argument type is "list[Unknown]" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/bus.py:19:24 - warning: Type of parameter "fn" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/bus.py:19:24 - warning: Type annotation is missing for parameter "fn" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/bus.py:20:9 - warning: Type of "subscribers" is partially unknown
+    Type of "subscribers" is "list[Unknown]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:20:9 - warning: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:20:32 - warning: Argument type is unknown
+    Argument corresponds to parameter "object" in function "append" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/bus.py:25:31 - warning: Type of "jsonl_sink" is partially unknown
+    Type of "jsonl_sink" is "(event: Unknown) -> None" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/bus.py:28:1 - warning: Type of "subscribe" is partially unknown
+    Type of "subscribe" is "(fn: Unknown) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:29:1 - warning: Type of "subscribe" is partially unknown
+    Type of "subscribe" is "(fn: Unknown) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/bus.py:29:20 - warning: Type of "ingest" is partially unknown
+    Type of "ingest" is "(event: Unknown) -> None" (reportUnknownMemberType)
+/workspaces/muszor/telemetry/context.py
+  /workspaces/muszor/telemetry/context.py:11:24 - warning: Type annotation is missing for parameter "origin" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:11:39 - warning: Type of parameter "trace_id" is partially unknown
+    Parameter type is "Unknown | None" (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:11:39 - warning: Type annotation is missing for parameter "trace_id" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:11:54 - warning: Type of parameter "parent_span_id" is partially unknown
+    Parameter type is "Unknown | None" (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:11:54 - warning: Type annotation is missing for parameter "parent_span_id" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:12:9 - warning: Type of "trace_id" is partially unknown
+    Type of "trace_id" is "Unknown | str" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:12:14 - warning: Type annotation for attribute `trace_id` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:13:14 - warning: Type annotation for attribute `span_id` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:14:9 - warning: Type of "parent_span_id" is partially unknown
+    Type of "parent_span_id" is "Unknown | None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:14:14 - warning: Type annotation for attribute `parent_span_id` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:15:14 - warning: Type annotation for attribute `origin` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:16:14 - warning: Type annotation for attribute `start` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:17:14 - warning: Type annotation for attribute `events` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:18:14 - warning: Type annotation for attribute `depth` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:23:22 - warning: Type of "trace_id" is partially unknown
+    Type of "trace_id" is "Unknown | str" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:27:9 - warning: Return type, "dict[str, Unknown | str | float | int | None]", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:27:20 - warning: Type of parameter "event" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:27:20 - warning: Type annotation is missing for parameter "event" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:27:29 - warning: Type of parameter "data" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:27:29 - warning: Type annotation is missing for parameter "data" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:28:9 - warning: Type of "payload" is partially unknown
+    Type of "payload" is "dict[str, Unknown | str | float | int | None]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/context.py:29:25 - warning: Type of "trace_id" is partially unknown
+    Type of "trace_id" is "Unknown | str" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:31:31 - warning: Type of "parent_span_id" is partially unknown
+    Type of "parent_span_id" is "Unknown | None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:39:9 - warning: Type of "events" is partially unknown
+    Type of "events" is "list[Unknown]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:39:9 - warning: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:40:9 - warning: Type of "publish" is partially unknown
+    Type of "publish" is "(event: Unknown) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:41:16 - warning: Return type, "dict[str, Unknown | str | float | int | None]", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/context.py:46:14 - warning: Type annotation for attribute `ctx` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/context.py:46:14 - error: Instance variable "ctx" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+  /workspaces/muszor/telemetry/context.py:47:9 - warning: Result of call expression is of type "Token[None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/context.py:47:29 - error: Argument of type "ExecutionContext" cannot be assigned to parameter "value" of type "None" in function "set"
+    "ExecutionContext" is not assignable to "None" (reportArgumentType)
+  /workspaces/muszor/telemetry/context.py:48:9 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:48:9 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/context.py:51:24 - warning: Type of parameter "exc_type" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:51:24 - warning: Type annotation is missing for parameter "exc_type" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:51:34 - warning: Type of parameter "exc" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:51:34 - warning: Type annotation is missing for parameter "exc" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:51:39 - warning: Type of parameter "tb" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/context.py:51:39 - warning: Type annotation is missing for parameter "tb" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/context.py:52:9 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/context.py:52:9 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/context.py:52:50 - warning: Argument type is unknown
+    Argument corresponds to parameter "object" in function "__new__" (reportUnknownArgumentType)
+/workspaces/muszor/telemetry/graph.py
+  /workspaces/muszor/telemetry/graph.py:6:9 - warning: Type of "graph" is partially unknown
+    Type of "graph" is "defaultdict[Unknown, list[Unknown]]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:6:14 - warning: Type annotation for attribute `graph` is required because this class is not decorated with `@final` (reportUnannotatedClassAttribute)
+  /workspaces/muszor/telemetry/graph.py:8:22 - warning: Type of parameter "event" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/graph.py:8:22 - warning: Type annotation is missing for parameter "event" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/graph.py:9:9 - warning: Type of "node" is partially unknown
+    Type of "node" is "dict[str, Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/graph.py:10:24 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:11:31 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:12:22 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:13:26 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:17:9 - warning: Type of "graph" is partially unknown
+    Type of "graph" is "defaultdict[Unknown, list[Unknown]]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:17:9 - warning: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:19:9 - warning: Return type, "list[Unknown]", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/graph.py:19:25 - warning: Type of parameter "trace_id" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/graph.py:19:25 - warning: Type annotation is missing for parameter "trace_id" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/graph.py:20:16 - warning: Type of "graph" is partially unknown
+    Type of "graph" is "defaultdict[Unknown, list[Unknown]]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:20:16 - warning: Type of "get" is partially unknown
+    Type of "get" is "Overload[(key: Unknown, default: None = None, /) -> (list[Unknown] | None), (key: Unknown, default: list[Unknown], /) -> list[Unknown], (key: Unknown, default: _T@get, /) -> (list[Unknown] | _T@get)]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/graph.py:20:16 - warning: Return type, "list[Unknown]", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/graph.py:20:31 - warning: Argument type is unknown
+    Argument corresponds to parameter "key" in function "get" (reportUnknownArgumentType)
+/workspaces/muszor/telemetry/hooks.py
+  /workspaces/muszor/telemetry/hooks.py:10:9 - warning: Return type, "Task[Unknown] | Unknown", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:17 - warning: Type of parameter "coro" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:17 - warning: Type annotation is missing for parameter "coro" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:24 - warning: Type of parameter "args" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:24 - warning: Type annotation is missing for parameter "args" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:32 - warning: Type of parameter "kwargs" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/hooks.py:10:32 - warning: Type annotation is missing for parameter "kwargs" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/hooks.py:18:20 - warning: Return type, "Task[Unknown]", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:18:42 - warning: Argument type is unknown
+    Argument corresponds to parameter "coro" in function "create_task" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:24:13 - warning: Type of "kw" is partially unknown
+    Type of "kw" is "dict[str, Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:24:23 - warning: Argument type is partially unknown
+    Argument corresponds to parameter "map" in function "__init__"
+    Argument type is "dict[str, Unknown]" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:25:13 - warning: Type of "context_obj" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:25:27 - warning: Type of "pop" is partially unknown
+    Type of "pop" is "Overload[(key: str, /) -> Unknown, (key: str, default: Unknown, /) -> Unknown, (key: str, default: _T@pop, /) -> (Unknown | _T@pop)]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/hooks.py:26:13 - warning: Type of "name" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:26:20 - warning: Type of "pop" is partially unknown
+    Type of "pop" is "Overload[(key: str, /) -> Unknown, (key: str, default: Unknown, /) -> Unknown, (key: str, default: _T@pop, /) -> (Unknown | _T@pop)]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/hooks.py:29:21 - warning: Return type, "Task[Unknown]", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/hooks.py:30:28 - warning: Return type, "Task[Unknown]", is partially unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:30:50 - warning: Argument type is unknown
+    Argument corresponds to parameter "coro" in function "create_task" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:33:21 - warning: Type of "task" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:33:28 - warning: Type of "run" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/hooks.py:35:21 - warning: Type of "task" is partially unknown
+    Type of "task" is "Task[Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:35:50 - warning: Argument type is unknown
+    Argument corresponds to parameter "coro" in function "create_task" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:37:17 - warning: Type of "task" is partially unknown
+    Type of "task" is "Task[Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/hooks.py:37:46 - warning: Argument type is unknown
+    Argument corresponds to parameter "coro" in function "create_task" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:41:21 - warning: Type of "set_name" is partially unknown
+    Type of "set_name" is "Unknown | ((value: object, /) -> None)" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/hooks.py:41:21 - warning: Result of call expression is of type "Unknown | None" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/hooks.py:41:35 - warning: Argument type is unknown
+    Argument corresponds to parameter "value" in function "set_name" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/hooks.py:45:20 - warning: Return type, "Unknown | Task[Unknown]", is partially unknown (reportUnknownVariableType)
+/workspaces/muszor/telemetry/middleware.py
+  /workspaces/muszor/telemetry/middleware.py:4:11 - warning: Return type is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/middleware.py:4:32 - warning: Type of parameter "request" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/middleware.py:4:32 - warning: Type annotation is missing for parameter "request" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/middleware.py:4:41 - warning: Type of parameter "call_next" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/middleware.py:4:41 - warning: Type annotation is missing for parameter "call_next" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/middleware.py:6:5 - warning: Result of call expression is of type "Token[None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/middleware.py:6:25 - error: Argument of type "ExecutionContext" cannot be assigned to parameter "value" of type "None" in function "set"
+    "ExecutionContext" is not assignable to "None" (reportArgumentType)
+  /workspaces/muszor/telemetry/middleware.py:8:5 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:8:5 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/middleware.py:8:39 - warning: Type of "url" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:8:39 - warning: Argument type is unknown
+    Argument corresponds to parameter "object" in function "__new__" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/middleware.py:11:9 - warning: Type of "response" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/middleware.py:12:9 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:12:9 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/middleware.py:12:42 - warning: Type of "status_code" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:12:42 - warning: Argument type is unknown
+    Argument corresponds to parameter "status" in function "emit" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/middleware.py:13:16 - warning: Return type is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/middleware.py:16:9 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:16:9 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+  /workspaces/muszor/telemetry/middleware.py:20:9 - warning: Type of "emit" is partially unknown
+    Type of "emit" is "(event: Unknown, **data: Unknown) -> dict[str, Unknown | str | float | int | None]" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/middleware.py:20:9 - warning: Result of call expression is of type "dict[str, Unknown | str | float | int | None]" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+/workspaces/muszor/telemetry/scanner.py
+  /workspaces/muszor/telemetry/scanner.py:3:8 - warning: Import "sys" is not accessed (reportUnusedImport)
+  /workspaces/muszor/telemetry/scanner.py:6:5 - warning: Return type, "list[Unknown]", is partially unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/scanner.py:6:17 - warning: Type of parameter "module_name" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/scanner.py:6:17 - warning: Type annotation is missing for parameter "module_name" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/scanner.py:7:38 - warning: Argument type is unknown
+    Argument corresponds to parameter "name" in function "import_module" (reportUnknownArgumentType)
+  /workspaces/muszor/telemetry/scanner.py:11:15 - warning: Type of "obj" is Any (reportAny)
+  /workspaces/muszor/telemetry/scanner.py:12:31 - warning: Argument type is Any
+    Argument corresponds to parameter "object" in function "isfunction" (reportAny)
+  /workspaces/muszor/telemetry/scanner.py:13:13 - warning: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/scanner.py:15:12 - warning: Return type, "list[Unknown]", is partially unknown (reportUnknownVariableType)
+/workspaces/muszor/telemetry/sink.py
+  /workspaces/muszor/telemetry/sink.py:4:18 - warning: Type of parameter "event" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/sink.py:4:18 - warning: Type annotation is missing for parameter "event" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/sink.py:5:5 - warning: Type of "trace" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/sink.py:5:13 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/sink.py:6:5 - warning: Type of "name" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/sink.py:6:12 - warning: Type of "get" is unknown (reportUnknownMemberType)
+  /workspaces/muszor/telemetry/sink.py:8:5 - warning: Type of "extras" is partially unknown
+    Type of "extras" is "dict[Unknown, Unknown]" (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/sink.py:8:24 - warning: Type of "k" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/sink.py:8:27 - warning: Type of "v" is unknown (reportUnknownVariableType)
+  /workspaces/muszor/telemetry/sink.py:8:32 - warning: Type of "items" is unknown (reportUnknownMemberType)
+/workspaces/muszor/telemetry/storage.py
+  /workspaces/muszor/telemetry/storage.py:3:16 - warning: Type of parameter "event" is unknown (reportUnknownParameterType)
+  /workspaces/muszor/telemetry/storage.py:3:16 - warning: Type annotation is missing for parameter "event" (reportMissingParameterType)
+  /workspaces/muszor/telemetry/storage.py:10:9 - warning: Result of call expression is of type "int" and is not used; assign to variable "_" if this is intentional (reportUnusedCallResult)
+18 errors, 219 warnings, 0 notes
